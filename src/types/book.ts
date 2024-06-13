@@ -1,4 +1,4 @@
-import { z, ZodError } from 'zod';
+import { z} from 'zod';
 
 // Define the schema using Zod
 export const CreateBookTypeSchema = z.object({
